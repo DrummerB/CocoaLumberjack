@@ -7,6 +7,7 @@
 //
 
 #import "DDFileLogger.h"
+#import "DDLog.h"
 
 @class InAppLogger;
 
