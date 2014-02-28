@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'Lumberjack/**/*.h'
 
-  s.default_subspec = 'Extensions'
+  s.default_subspec = 'Customization'
 
   s.subspec 'Core' do |ss|
     ss.source_files = 'Lumberjack/*.{h,m}'
