@@ -39,6 +39,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Customization' do |ss|
       ss.dependency 'CocoaLumberjack/Core'
+      ss.dependency 'CocoaLumberjack/Extensions'
       ss.source_files = 'Lumberjack/Customization/*.{h,m}'
   end
   
